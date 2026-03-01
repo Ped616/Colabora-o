@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Mogra&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-ser;
+}
+
+.title-page{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+.form {
+    width: 500px;
+    box-shadow: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px #0000006b;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+}
+.form input {
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px;
+}
+
+.form div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form input[type="radio"] {
+    width: 20px;
+    cursor: pointer;
+}
+
+.form #button-form-adicionar{
+    align-self: flex-end;
+}
+
+#button-form-adicionar{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    transition: 0.2s;
+}
+
+#button-form-clear{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    transition: 0.2s;
+    align-self: flex-end;
+    margin-top: 2px;
+}
+
+#button-form-adicionar:hover{
+    transform: scale(1.05);
+}

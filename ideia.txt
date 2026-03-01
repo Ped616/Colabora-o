@@ -1,0 +1,18 @@
+Estoque - Convencional
+
+Funções: 
+
+Adicionar produto, remover produto, ver estoque atual, mínimo de estoque, 
+
+- Criar Produtos,
+- Adicionar Produtos,
+- Remover Produtos, 
+- Ver Estoque Atual,
+- Notificação de Produto Com Estoque Baixo,
+- Controle de Entrada e Saída,
+- Remover Mais Que o permitido.
+- Ver total de preço de um produto
+
+Informações da tabela
+
+Nome, Código, Quantidade, Mínimo, Preço, Validade, Ver total de preço dos produtos

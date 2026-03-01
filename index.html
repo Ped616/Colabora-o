@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GUIGOOOOO</title>
+    <title>Sistema De Estoque - JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
+    <header class="title-page"> <h1> Sistema de estoque - Gui e Pedro </h1> </header>
+
+    <!-- Form Adicionar Produto -->
+     <div class="form">
+        <input required type="text" id="nome" placeholder="Nome do produto:"> <br>
+        <input required type="number" id="codigo" placeholder="Código do produto:"> <br>
+        <input required type="number" id="quantidade" placeholder="Quantidade do produto:"> <br>
+        <input required type="number" id="minimo" placeholder="Mínimo do produto:"> <br>
+        <input required type="number" id="preco" placeholder="Preço do produto:"> <br>
+        <input type="date" id="validade"> <br>
+        <p>Tem Validade?</p>
+        <div>
+        <input type="radio" name="validade" id="sim" value="true" checked>
+        <label for="sim">Sim</label>
+        </div>
+        <div>
+        <input type="radio" name="validade" id="nao" value="false">
+        <label for="nao">Não</label> <br>
+        </div>
+        
+        <button id="button-form-adicionar">Adicionar</button>
+        <button id="button-form-clear">Limpar</button>
+    </div>
+     <br>
+     
+     <!-- TABELA DOS PRODUTOS -->
+     <table border="1px" id="tabela"> 
+        <thead>
+            <tr>
+                <th> NOME PROD </th>
+                <th> CÓDIGO </th>
+                <th> QUANT </th>
+                <th> MÍN </th>
+                <th> PREÇO </th>
+                <th> VALIDADE</th>
+                <th> Data Validade</th>
+                <th> VALOR TOTAL </th>
+            </tr>
+        </thead>
+
+        <tbody id="tbody">
+            
+        </tbody>
+     </table>
+
+     <script src="script.js"> </script>
 </body>
 </html>
