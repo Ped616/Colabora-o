@@ -42,6 +42,11 @@ function dataForm () {
         }  
         }
 
+        if (quantidade < minimo){
+            alert('Adicione uma quantidade acima do mínimo!')
+            return
+        }
+
     }
     
     
