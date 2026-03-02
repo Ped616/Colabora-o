@@ -47,8 +47,8 @@ function dataForm () {
     
 
     let produto = {
-        codigo: codigo,
         nome: nome,
+        codigo: codigo,
         quantidade: quantidade,
         minimo: minimo,
         preco: preco,
